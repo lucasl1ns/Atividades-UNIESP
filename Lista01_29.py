@@ -1,0 +1,5 @@
+xa, ya = input().split()
+xb, yb = input().split()
+xa, ya, xb, yb = float(xa), float(ya), float(xb), float(yb)
+d = ((xb-xa)**2 + (yb-ya)**2)**(1/2)
+print(f'Distância entre A e B: {d:.2f}')
